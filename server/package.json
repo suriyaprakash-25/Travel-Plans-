@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node init && node server.js",
     "server": "nodemon server.js",
-    "dev": "nodemon server.js",
+    "dev": "node init && nodemon server.js",
     "test": "echo \"no tests\" && exit 0",
     "lint": "eslint .",
     "format:check": "prettier --check .",
