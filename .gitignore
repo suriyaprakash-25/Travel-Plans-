@@ -5,8 +5,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment variables
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -19,7 +17,6 @@ coverage/
 # OS/IDE
 .DS_Store
 .idea/
-.vscode/
 *.swp
 
 # Misc
@@ -30,3 +27,4 @@ tmp/
 
 # Ignore the entire project directory to prevent accidental commits of sensitive data or build artifacts(made a mistake, should be removed)
 Travel-Plans-/
+config.bat
